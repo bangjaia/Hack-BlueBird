@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "First",
+    "slug": "first",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Calendar_Icon.png",
+    "scheme": "first",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "android": {
+      "package": "com.happywind.first",
+      "newArchEnabled": false,
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "manifestPlaceholders": {
+        "appAuthRedirectScheme": "first"
+      },
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/Calendar_Icon.png",
+        "backgroundImage": "./assets/images/Calendar_Icon.png"
+      }
+      
+     
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/Calendar_Icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/Calendar_Icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "apiBaseUrl": "http://localhost:5000",
+      "googleOAuthAndroidClientId": "470194900189-lq5pb1g8f13117vum8ug4i2sm5j5hq73.apps.googleusercontent.com",
+      "googleOAuthIosClientId": "470194900189-lq5pb1g8f13117vum8ug4i2sm5j5hq73.apps.googleusercontent.com",
+      "googleOAuthWebClientId": "470194900189-lq5pb1g8f13117vum8ug4i2sm5j5hq73.apps.googleusercontent.com",
+      "googleCalendarId": "ztonotzt@gmail.com",
+      "googleCalendarEmbedUrl": "https://calendar.google.com/calendar/ical/ztonotzt%40gmail.com/public/basic.ics",
+      "googleCalendarApiKey": "AIzaSyD-9tSrQWZ2o7RnBcich5aoTie8uBpynA",
+      "eas": {
+        "projectId": "static-bee-428208-r2"
+      }
+    },
+    "owner": "happywind"
+  }
+}
